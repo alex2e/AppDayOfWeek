@@ -48,16 +48,25 @@ namespace DayOfWeek
 
         private void btnCalculateClasses_Click(object sender, EventArgs e)
         {
-           if (dayText != null && age>=0 )
+            if( int.TryParse(tbxAge.ToString(), out age))
             {
-                if(age <= 18 && dayText != "Saturday" && dayText != "Sunday")
+
+            }
+            else
+            {
+                result = string.Format("{0} your information is incorrect", tbxName.Text);
+            }
+
+           if (!string.IsNullOrEmpty(dayText) && age>=0 )
+            {
+                if(age <= 18 && !dayText.Equals(dayOfWeek.Saturday.ToString()) && !dayText.Equals(dayOfWeek.Sunday.ToString()))
                 {
                     result = string.Format("{0} you have lessons today",tbxName.Text);
-                } else
-                {
-                    result = string.Format("{0} you have not lessons today",tbxName.Text);
                 }
-
+                else
+                {
+                    result = string.Format("{0} you have NOT lessons today",tbxName.Text);
+                }
             }
             else
             {
@@ -66,7 +75,6 @@ namespace DayOfWeek
 
             lblSolution.Text = result;
         }
-
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -155,12 +163,10 @@ namespace DayOfWeek
             {
                 btnCalculateClasses.Enabled = true;
             }
-        }
-
-       
+        }  
         #endregion
 
-        
+       
     }
 
 }
