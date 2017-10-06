@@ -51,7 +51,7 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(12, 39);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(88, 13);
+            this.lblName.Size = new System.Drawing.Size(101, 15);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Insert your name:";
             // 
@@ -60,9 +60,9 @@
             this.lblAge.AutoSize = true;
             this.lblAge.Location = new System.Drawing.Point(12, 98);
             this.lblAge.Name = "lblAge";
-            this.lblAge.Size = new System.Drawing.Size(77, 13);
+            this.lblAge.Size = new System.Drawing.Size(87, 15);
             this.lblAge.TabIndex = 1;
-            this.lblAge.Text = "Insert yout age";
+            this.lblAge.Text = "Insert your age";
             // 
             // tbxName
             // 
@@ -101,7 +101,7 @@
             this.rbnSunday.AutoSize = true;
             this.rbnSunday.Location = new System.Drawing.Point(233, 20);
             this.rbnSunday.Name = "rbnSunday";
-            this.rbnSunday.Size = new System.Drawing.Size(31, 17);
+            this.rbnSunday.Size = new System.Drawing.Size(32, 19);
             this.rbnSunday.TabIndex = 6;
             this.rbnSunday.TabStop = true;
             this.rbnSunday.Text = "7";
@@ -113,7 +113,7 @@
             this.rbnSaturday.AutoSize = true;
             this.rbnSaturday.Location = new System.Drawing.Point(195, 20);
             this.rbnSaturday.Name = "rbnSaturday";
-            this.rbnSaturday.Size = new System.Drawing.Size(31, 17);
+            this.rbnSaturday.Size = new System.Drawing.Size(32, 19);
             this.rbnSaturday.TabIndex = 5;
             this.rbnSaturday.TabStop = true;
             this.rbnSaturday.Text = "6";
@@ -125,7 +125,7 @@
             this.rbnFriday.AutoSize = true;
             this.rbnFriday.Location = new System.Drawing.Point(157, 20);
             this.rbnFriday.Name = "rbnFriday";
-            this.rbnFriday.Size = new System.Drawing.Size(31, 17);
+            this.rbnFriday.Size = new System.Drawing.Size(32, 19);
             this.rbnFriday.TabIndex = 4;
             this.rbnFriday.TabStop = true;
             this.rbnFriday.Text = "5";
@@ -137,7 +137,7 @@
             this.rbnThursday.AutoSize = true;
             this.rbnThursday.Location = new System.Drawing.Point(119, 20);
             this.rbnThursday.Name = "rbnThursday";
-            this.rbnThursday.Size = new System.Drawing.Size(31, 17);
+            this.rbnThursday.Size = new System.Drawing.Size(32, 19);
             this.rbnThursday.TabIndex = 3;
             this.rbnThursday.TabStop = true;
             this.rbnThursday.Text = "4";
@@ -149,7 +149,7 @@
             this.rbnWednesday.AutoSize = true;
             this.rbnWednesday.Location = new System.Drawing.Point(81, 19);
             this.rbnWednesday.Name = "rbnWednesday";
-            this.rbnWednesday.Size = new System.Drawing.Size(31, 17);
+            this.rbnWednesday.Size = new System.Drawing.Size(32, 19);
             this.rbnWednesday.TabIndex = 2;
             this.rbnWednesday.TabStop = true;
             this.rbnWednesday.Text = "3";
@@ -161,7 +161,7 @@
             this.rbnTuesday.AutoSize = true;
             this.rbnTuesday.Location = new System.Drawing.Point(43, 19);
             this.rbnTuesday.Name = "rbnTuesday";
-            this.rbnTuesday.Size = new System.Drawing.Size(31, 17);
+            this.rbnTuesday.Size = new System.Drawing.Size(32, 19);
             this.rbnTuesday.TabIndex = 1;
             this.rbnTuesday.TabStop = true;
             this.rbnTuesday.Text = "2";
@@ -173,7 +173,7 @@
             this.rbnMonday.AutoSize = true;
             this.rbnMonday.Location = new System.Drawing.Point(6, 19);
             this.rbnMonday.Name = "rbnMonday";
-            this.rbnMonday.Size = new System.Drawing.Size(31, 17);
+            this.rbnMonday.Size = new System.Drawing.Size(32, 19);
             this.rbnMonday.TabIndex = 0;
             this.rbnMonday.TabStop = true;
             this.rbnMonday.Text = "1";
@@ -185,7 +185,7 @@
             this.lblErrors.AutoSize = true;
             this.lblErrors.Location = new System.Drawing.Point(15, 240);
             this.lblErrors.Name = "lblErrors";
-            this.lblErrors.Size = new System.Drawing.Size(11, 13);
+            this.lblErrors.Size = new System.Drawing.Size(12, 15);
             this.lblErrors.TabIndex = 5;
             this.lblErrors.Text = "*";
             // 
@@ -194,7 +194,7 @@
             this.lblSolution.AutoSize = true;
             this.lblSolution.Location = new System.Drawing.Point(18, 325);
             this.lblSolution.Name = "lblSolution";
-            this.lblSolution.Size = new System.Drawing.Size(11, 13);
+            this.lblSolution.Size = new System.Drawing.Size(12, 15);
             this.lblSolution.TabIndex = 6;
             this.lblSolution.Text = "*";
             // 

@@ -48,29 +48,27 @@ namespace DayOfWeek
 
         private void btnCalculateClasses_Click(object sender, EventArgs e)
         {
-            if( int.TryParse(tbxAge.ToString(), out age))
+            if(int.TryParse(tbxAge.Text.ToString(), out age))
             {
-
-            }
-            else
-            {
-                result = string.Format("{0} your information is incorrect", tbxName.Text);
-            }
-
-           if (!string.IsNullOrEmpty(dayText) && age>=0 )
-            {
-                if(age <= 18 && !dayText.Equals(dayOfWeek.Saturday.ToString()) && !dayText.Equals(dayOfWeek.Sunday.ToString()))
+                if (!string.IsNullOrEmpty(dayText) && age >= 0)
                 {
-                    result = string.Format("{0} you have lessons today",tbxName.Text);
+                    if (age <= 18 && !dayText.Equals(dayOfWeek.Saturday.ToString()) && !dayText.Equals(dayOfWeek.Sunday.ToString()))
+                    {
+                        result = string.Format("{0} you have lessons today", tbxName.Text);
+                    }
+                    else
+                    {
+                        result = string.Format("{0} you have NOT lessons today", tbxName.Text);
+                    }
                 }
                 else
                 {
-                    result = string.Format("{0} you have NOT lessons today",tbxName.Text);
+                    result = string.Format("{0} your information is incorrect");
                 }
             }
             else
             {
-                result = string.Format("{0} your information is incorrect");
+                result = string.Format("{0} your age is incorrect", tbxName.Text);
             }
 
             lblSolution.Text = result;
